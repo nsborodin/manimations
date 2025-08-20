@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/ArrowShapes/3977891868_394469403_223132457.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/ArrowShapes/2852726489_2688965532_1876292592.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/ArrowShapes/2852726489_3218833636_4131490064.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/ArrowShapes/2852726489_3960585782_1666280314.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/ArrowShapes/2852726489_2688965532_3210972498.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/ArrowShapes/2852726489_3823503427_2748530264.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/ArrowShapes/2852726489_2088873804_691969773.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/ArrowShapes/2852726489_2688965532_2586084275.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/ArrowShapes/2852726489_2258978790_870951899.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/ArrowShapes/2852726489_1628384819_3282659717.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/ArrowShapes/2852726489_4277570474_3158874312.mp4'

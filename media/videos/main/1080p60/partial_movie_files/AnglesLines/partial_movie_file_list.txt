@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/AnglesLines/3977891868_878337746_223132457.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/AnglesLines/2852726489_1075303647_4003631877.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/AnglesLines/2852726489_1896008266_3328724446.mp4'

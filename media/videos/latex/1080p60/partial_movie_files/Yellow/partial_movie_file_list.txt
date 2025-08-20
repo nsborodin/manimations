@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/Yellow/3977891868_2565745959_223132457.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/Yellow/2852726489_2688965532_385200501.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/Yellow/2852726489_2942053313_2408497733.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/Yellow/2852726489_2688965532_210259938.mp4'

@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/BackgroundColor/1959641250_4277570474_1930658149.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/BackgroundColor/1158986825_4277570474_155545848.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/BackgroundColor/1158986825_4277570474_3278671325.mp4'

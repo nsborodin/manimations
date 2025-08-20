@@ -1,0 +1,7 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/BezierAndRounded/3977891868_2639007179_223132457.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/BezierAndRounded/2852726489_2688965532_2597442586.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/BezierAndRounded/2852726489_1701055369_1368363041.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/BezierAndRounded/2852726489_2688965532_1021358501.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/BezierAndRounded/2852726489_3630216277_181538388.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/BezierAndRounded/2852726489_4277570474_3096701235.mp4'

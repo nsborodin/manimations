@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/LaTexSimple/3977891868_3451166934_223132457.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/LaTexSimple/2852726489_2688965532_1654935149.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/LaTexSimple/2852726489_952599735_3530861801.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/LaTexSimple/2852726489_2688965532_210259938.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/LaTexSimple/2852726489_1285421390_691969773.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/LaTexSimple/2852726489_1948208971_221385704.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/LaTexSimple/2852726489_2688965532_3278671325.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/LaTexSimple/2852726489_2307951194_3282659717.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/LaTexSimple/2852726489_2688965532_2417789944.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/LaTexSimple/2852726489_959329072_2128639320.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/LaTexSimple/2852726489_2688965532_3196764103.mp4'

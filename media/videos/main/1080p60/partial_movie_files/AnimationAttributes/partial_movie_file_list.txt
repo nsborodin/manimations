@@ -1,0 +1,11 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/AnimationAttributes/3977891868_2249678375_223132457.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/AnimationAttributes/2852726489_1432596116_2190249274.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/AnimationAttributes/2852726489_1501359405_2078688569.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/AnimationAttributes/2852726489_2574473371_4027461260.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/AnimationAttributes/2852726489_3481240663_3312368013.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/AnimationAttributes/2852726489_2688965532_3429026375.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/AnimationAttributes/2852726489_672466316_971295346.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/AnimationAttributes/2852726489_2688965532_1431954679.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/AnimationAttributes/2852726489_1761657689_192819939.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/AnimationAttributes/2852726489_4277570474_3196764103.mp4'

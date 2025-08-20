@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/TriangleAngle/3977891868_1768786653_223132457.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/TriangleAngle/2852726489_1951318485_2905320235.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/TriangleAngle/2852726489_3744264798_2109280812.mp4'
