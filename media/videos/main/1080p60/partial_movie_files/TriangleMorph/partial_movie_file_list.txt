@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/nsborodin/manimations/media/videos/main/1080p60/partial_movie_files/TriangleMorph/3977891868_1950384987_223132457.mp4'
+file 'file:C:/Users/nsborodin/manimations/media/videos/main/1080p60/partial_movie_files/TriangleMorph/2852726489_1768786653_2839584751.mp4'
+file 'file:C:/Users/nsborodin/manimations/media/videos/main/1080p60/partial_movie_files/TriangleMorph/2852726489_2688965532_357188480.mp4'
+file 'file:C:/Users/nsborodin/manimations/media/videos/main/1080p60/partial_movie_files/TriangleMorph/2852726489_1489218706_3814928596.mp4'
+file 'file:C:/Users/nsborodin/manimations/media/videos/main/1080p60/partial_movie_files/TriangleMorph/2852726489_2688965532_1689930451.mp4'

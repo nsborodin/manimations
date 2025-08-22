@@ -1,0 +1,9 @@
+# This file is used internally by FFMPEG.
+file 'file:C:/Users/nsborodin/manimations/media/videos/pos/1080p60/partial_movie_files/ArcCenter/3977891868_3052782688_223132457.mp4'
+file 'file:C:/Users/nsborodin/manimations/media/videos/pos/1080p60/partial_movie_files/ArcCenter/2852726489_2688965532_3967626312.mp4'
+file 'file:C:/Users/nsborodin/manimations/media/videos/pos/1080p60/partial_movie_files/ArcCenter/2852726489_3110867424_66504374.mp4'
+file 'file:C:/Users/nsborodin/manimations/media/videos/pos/1080p60/partial_movie_files/ArcCenter/2852726489_2688965532_2974546582.mp4'
+file 'file:C:/Users/nsborodin/manimations/media/videos/pos/1080p60/partial_movie_files/ArcCenter/2852726489_2184329864_1038194330.mp4'
+file 'file:C:/Users/nsborodin/manimations/media/videos/pos/1080p60/partial_movie_files/ArcCenter/2852726489_2688965532_1538465651.mp4'
+file 'file:C:/Users/nsborodin/manimations/media/videos/pos/1080p60/partial_movie_files/ArcCenter/2852726489_976693061_1011866638.mp4'
+file 'file:C:/Users/nsborodin/manimations/media/videos/pos/1080p60/partial_movie_files/ArcCenter/2852726489_4277570474_2937946666.mp4'
