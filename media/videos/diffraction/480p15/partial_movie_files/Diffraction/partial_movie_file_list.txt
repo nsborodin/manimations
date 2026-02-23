@@ -1,0 +1,3 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/nborodin/manim2/manimations/media/videos/diffraction/480p15/partial_movie_files/Diffraction/1026304938_655401569_1219814103.mp4'
+file 'file:/Users/nborodin/manim2/manimations/media/videos/diffraction/480p15/partial_movie_files/Diffraction/2947033668_548731573_3429552232.mp4'
