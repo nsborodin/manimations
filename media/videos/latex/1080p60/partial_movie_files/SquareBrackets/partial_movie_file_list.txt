@@ -1,5 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/SquareBrackets/3977891868_2830251627_223132457.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/SquareBrackets/2852726489_2688965532_1504006291.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/SquareBrackets/2852726489_2603517599_3807840346.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/SquareBrackets/2852726489_2688965532_210259938.mp4'

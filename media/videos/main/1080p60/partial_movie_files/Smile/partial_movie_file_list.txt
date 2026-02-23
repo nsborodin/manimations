@@ -1,6 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/Smile/3977891868_2240210012_223132457.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/Smile/2852726489_1557635237_2236333635.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/Smile/2852726489_1606006851_3344055887.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/Smile/2852726489_3457565232_2625044263.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/Smile/2852726489_225203884_2432443338.mp4'

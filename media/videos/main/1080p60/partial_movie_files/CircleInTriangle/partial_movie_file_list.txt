@@ -1,6 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/CircleInTriangle/3977891868_2775946722_223132457.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/CircleInTriangle/2852726489_1173215870_364581316.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/CircleInTriangle/2852726489_3418625968_106022436.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/CircleInTriangle/2852726489_554457606_294399632.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/CircleInTriangle/2852726489_4180389389_928099631.mp4'

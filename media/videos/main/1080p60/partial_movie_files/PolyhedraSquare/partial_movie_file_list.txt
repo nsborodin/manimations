@@ -1,6 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/PolyhedraSquare/3977891868_2294557964_223132457.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/PolyhedraSquare/2852726489_3717131467_3840238463.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/PolyhedraSquare/2852726489_547259806_3669119150.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/PolyhedraSquare/2852726489_1354826899_1046780052.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/PolyhedraSquare/2852726489_2688965532_4071729660.mp4'

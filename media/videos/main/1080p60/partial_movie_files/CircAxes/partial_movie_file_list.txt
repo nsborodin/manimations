@@ -1,7 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/CircAxes/3977891868_2240210012_223132457.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/CircAxes/2852726489_797329271_2236333635.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/CircAxes/2852726489_2688965532_1768809376.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/CircAxes/2852726489_2732499039_1250264607.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/CircAxes/2852726489_2688965532_3577528041.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/main/1080p60/partial_movie_files/CircAxes/2852726489_3202772346_4246508096.mp4'

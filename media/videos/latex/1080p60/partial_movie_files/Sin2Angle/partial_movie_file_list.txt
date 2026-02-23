@@ -1,5 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/Sin2Angle/3977891868_2113662642_223132457.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/Sin2Angle/2852726489_2688965532_2299445913.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/Sin2Angle/2852726489_3743625197_4179784688.mp4'
-file 'file:/Users/nborodin/manim2/manimations/media/videos/latex/1080p60/partial_movie_files/Sin2Angle/2852726489_2688965532_210259938.mp4'
