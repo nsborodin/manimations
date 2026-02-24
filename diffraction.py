@@ -1,4 +1,5 @@
 from manim import *
+from networkx import depth_first_search
 import numpy as np
 
 class Diffraction(ThreeDScene):
@@ -10,7 +11,9 @@ class Diffraction(ThreeDScene):
         SLIT_COLOR = DARK_GREY
 
         CUBE_ANGLE = -3 * PI/16
-        CUBE_POSITION = np.array([-5, 0, 0])
+        SLIT_ANGLE = 4 * PI/16
+        CUBE_POSITION = np.array([-5, 0, 2])
+        SLIT_POSITION = np.array([3, 0, -10])
         SPIRAL_POSITION = np.array([0, 0, -10])
         # 3D Cube
 
@@ -18,6 +21,18 @@ class Diffraction(ThreeDScene):
         source.set_stroke(WHITE, 1)
         source.move_to(CUBE_POSITION)
         source.rotate(angle=CUBE_ANGLE, axis=DOWN)
+
+        outer_shape = Rectangle(height=2, width=2)
+        inner_hole = Triangle().scale(0.8)
+
+        face = Cutout(outer_shape, inner_hole, fill_opacity=1, fill_color=SOURCE_COLOR)
+        face.set_stroke(BLUE_E, 2)
+        face.rotate(angle=PI/4, axis=DOWN)
+
+        #slit = Prism(dimensions=[2,3,1], fill_color=SOURCE_COLOR)
+        #slit.set_stroke(WHITE, 1)
+        #slit.move_to(SLIT_POSITION)
+        #slit.rotate(angle=SLIT_ANGLE, axis=DOWN)
 
         # Label — fixed orientation = always facing camera (flat), position still in 3D
         source_label = Tex(r"e$^{-}$/ion\\source", color=WHITE)
@@ -102,9 +117,45 @@ class Diffraction(ThreeDScene):
             color=YELLOW,
             thickness=0.06,
         )
+
+        def create_prism_with_hole(width, height, depth, hole_scale, color):
+            outer_rect = Rectangle(width=width, height=height)
+            inner_tri = Triangle().scale(hole_scale)
+
+            face_template = Cutout(outer_rect, inner_tri, fill_opacity=1, color=color, stroke_width=1)
+            front = face_template.copy().shift(OUT * depth/2)
+            back = face_template.copy().shift(IN * depth/2)
+
+            tri_verts = inner_tri.get_vertices()
+            inner_walls = VGroup()
+            for i in range(3):
+                v1 = tri_verts[i] + OUT * depth/2
+                v2 = tri_verts[(i+1)%3] + OUT * depth/2
+                v3 = v2 + IN * depth
+                v4 = v1 + IN * depth
+                inner_walls.add(Polygon(v1, v2, v3, v4, fill_opacity=1, color=color, stroke_width=1))
+            
+            rect_verts = outer_rect.get_vertices()
+            outer_walls = VGroup()
+            for i in range(4):
+                v1 = rect_verts[i] + OUT * depth/2
+                v2 = rect_verts[(i+1)%4] + OUT * depth/2
+                v3 = v2 + IN * depth
+                v4 = v1 + IN * depth
+                outer_walls.add(Polygon(v1, v2, v3, v4, fill_opacity=1, color=color, stroke_width=1))
+
+            return VGroup(front, back, inner_walls, outer_walls)
+
+        slit_prism = create_prism_with_hole(3, 3, 1, 1.5, SOURCE_COLOR)
+        slit_prism.rotate(angle=SLIT_ANGLE, axis=DOWN)
+        slit_distance_from_spiral = 10
+        slit_prism.move_to(SPIRAL_POSITION + beam_axis * slit_distance_from_spiral)
+
+        self.add(source)
         self.add(rotation_axis_line)
         self.add(helix_surface)
-        self.add(source)
+        self.add(slit_prism)
+        #self.add(face)
         self.add_fixed_orientation_mobjects(source_label)
         self.play(
             Rotate(helix_surface, angle=TAU, axis=-beam_axis, about_point=SPIRAL_POSITION),
