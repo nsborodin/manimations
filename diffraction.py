@@ -118,35 +118,41 @@ class Diffraction(ThreeDScene):
             thickness=0.06,
         )
 
-        def create_prism_with_hole(width, height, depth, hole_scale, color):
+        def create_prism_with_hole(width, height, depth, hole_scale):
+            # Создаем детали БЕЗ цвета внутри функции, только геометрию
             outer_rect = Rectangle(width=width, height=height)
             inner_tri = Triangle().scale(hole_scale)
 
-            face_template = Cutout(outer_rect, inner_tri, fill_opacity=1, color=color, stroke_width=1)
+            # 1. Лицевые грани. Включаем shade_in_3d=True
+            # Cutout наследует VMobject, так что параметр работает
+            face_template = Cutout(outer_rect, inner_tri, shade_in_3d=True)
             front = face_template.copy().shift(OUT * depth/2)
             back = face_template.copy().shift(IN * depth/2)
 
+            # 2. Внутренние стенки (щель)
             tri_verts = inner_tri.get_vertices()
             inner_walls = VGroup()
             for i in range(3):
-                v1 = tri_verts[i] + OUT * depth/2
-                v2 = tri_verts[(i+1)%3] + OUT * depth/2
-                v3 = v2 + IN * depth
-                v4 = v1 + IN * depth
-                inner_walls.add(Polygon(v1, v2, v3, v4, fill_opacity=1, color=color, stroke_width=1))
+                v1, v2 = tri_verts[i] + OUT*depth/2, tri_verts[(i+1)%3] + OUT*depth/2
+                v3, v4 = v2 + IN*depth, v1 + IN*depth
+                # Polygon тоже должен иметь shade_in_3d=True
+                inner_walls.add(Polygon(v1, v2, v3, v4, shade_in_3d=True))
             
+            # 3. Внешние боковые стенки
             rect_verts = outer_rect.get_vertices()
             outer_walls = VGroup()
             for i in range(4):
-                v1 = rect_verts[i] + OUT * depth/2
-                v2 = rect_verts[(i+1)%4] + OUT * depth/2
-                v3 = v2 + IN * depth
-                v4 = v1 + IN * depth
-                outer_walls.add(Polygon(v1, v2, v3, v4, fill_opacity=1, color=color, stroke_width=1))
+                v1, v2 = rect_verts[i] + OUT*depth/2, rect_verts[(i+1)%4] + OUT*depth/2
+                v3, v4 = v2 + IN*depth, v1 + IN*depth
+                outer_walls.add(Polygon(v1, v2, v3, v4, shade_in_3d=True))
 
+            # Собираем всё в одну группу
             return VGroup(front, back, inner_walls, outer_walls)
 
-        slit_prism = create_prism_with_hole(3, 3, 1, 1.5, SOURCE_COLOR)
+        slit_prism = create_prism_with_hole(5, 5, 1, 1.75)
+        slit_prism.set_fill(SOURCE_COLOR, opacity=0.3)
+        slit_prism.set_stroke(LIGHT_GRAY, 1)
+
         slit_prism.rotate(angle=SLIT_ANGLE, axis=DOWN)
         slit_distance_from_spiral = 10
         slit_prism.move_to(SPIRAL_POSITION + beam_axis * slit_distance_from_spiral)
